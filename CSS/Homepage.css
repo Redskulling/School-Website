@@ -1,8 +1,7 @@
-.top {
-	padding-top: 30px;
+body {
 	padding-left: 3.5px;
 }
 
-.toptitle {
-	font-size: 50px;
+.explanation {
+	font-size: 15px;
 }
