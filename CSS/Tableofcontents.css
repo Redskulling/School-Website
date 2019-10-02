@@ -1,0 +1,29 @@
+.contents {
+	position: relitive;
+	width: 200px;
+	border: solid;
+	z-index: -1;
+	margin: 10px;
+	margin-left: 0px;
+}
+
+.contents h3 {
+	text-align: center;
+	margin: 10px;
+	margin-bottom: 0px;
+}
+
+.contents hl {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.contents hl {
+	display: solid;
+	margin: 0px;
+}
+
+.contents ul {
+	margin: 0px;
+	margin-bottom: 10px;
+}
