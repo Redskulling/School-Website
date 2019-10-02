@@ -67,3 +67,11 @@
 /*dispays the options when overing over the button*/
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #009b9b;}
+
+.top {
+	padding-top: 30px;
+}
+
+.top h1 {
+	font-size: 50px;
+}
