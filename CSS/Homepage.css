@@ -2,7 +2,11 @@ body {
 	padding-left: 3.5px;
 }
 
+.contents a {
+	text-decoration: none;
+	color: #0000EE;
+}
+
 .explanation {
 	font-size: 15px;
 }
-
