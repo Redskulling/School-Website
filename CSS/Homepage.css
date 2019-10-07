@@ -2,11 +2,43 @@ body {
 	padding-left: 3.5px;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
+}
+
 .contents a {
 	text-decoration: none;
 	color: #0000EE;
 }
 
-.explanation {
-	font-size: 15px;
+.terms h2 {
+	margin-bottom:  0px;
+	padding-bottom: 0px;
+}
+
+.terms hr {
+	margin-top:  2px;
+	padding-top: 0px;
+}
+
+.terms ul {
+	list-style: none;
+	margin-left: -25px;
+}
+
+.terms table {
+	
+}
+
+.terms hr, th {
+	padding: 5px;
+}
+
+.terms th:nth-child(2n-1) {
+	border-right: solid;
+	border-width: 1px;
+	
 }
