@@ -1,5 +1,6 @@
 body {
 	padding-left: 3.5px;
+	text-align: left;
 }
 
 a.anchor {
@@ -38,7 +39,11 @@ a.anchor {
 }
 
 .terms th:nth-child(2n-1) {
-	border-right: solid;
-	border-width: 1px;
-	
+	border-right:  solid;
+	border-width:  1px;
+	padding-right: 25px;
+}
+
+.terms th:nth-child(2n)   {
+	padding-left: 25px;
 }
