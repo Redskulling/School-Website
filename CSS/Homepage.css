@@ -36,6 +36,8 @@ a.anchor {
 
 .terms hr, th {
 	padding: 5px;
+	padding-top: 0px;
+	margin-top: -5px;
 }
 
 .terms th:nth-child(2n-1) {
