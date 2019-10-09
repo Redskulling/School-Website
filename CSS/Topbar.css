@@ -1,39 +1,34 @@
 /*Baground To Navigation Bar*/
 .topbar {
-    padding: 10px; /*5px every side*/
-    background-color: black;
-    position: fixed; /*keeps bar at top*/
-    top: 0;
-    right: 0;
-    left: 0;
-}
-
-/*makes the "Homepage" button look nice*/
-.homebtn {
-    background-color: #00aeae;
-    padding: 16px;
-    margin-right:5px;
-    border: none; 
+	background-color: #f0f0f0;
+    padding: 10px;
+    border: solid;
+	border-color: #d0d0d0;
+    position: fixed;
+    top: 0px;
+    right: 2px;
+    left: 2px;
 }
 
 /*gets rid of the underline/blue → red link colour
  *also makes the button have a bit of space */
+
 .homebtn a {
-    color: white;
+    color: black;
     font-size: 16px;
     text-decoration: none;
 }
-
-/*makes the colour darker when hovering over the button*/
-.homebtn:hover {background-color: #009b9b;}
+ 
 
 /*makes every dropdown menu look nice*/
-.dropbtn {
-    background-color: #00aeae;
-    color: white;
+.dropbtn, .homebtn{
+	text-decoration: none;
+    background-color: #e5e5e5;
+    color: black;
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border: solid;
+	border-color: #D0D0D0;
     margin-right: 5px;
 }
 
@@ -67,10 +62,10 @@
 /*dispays the options when overing over the button*/
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown span:after {content: '\00bb';}
-.dropdown:hover .dropbtn {background-color: #009b9b;}
+.dropdown:hover .dropbtn, .homebtn:hover{background-color: #d0d0d0;}
 
 .top {
-	padding-top: 30px;
+	padding-top: 35px;
 }
 
 .top h1 {
