@@ -1,1 +1,27 @@
-/**/
+.general th {
+	border: solid;
+	border-width: .5px;
+}
+
+.general tr:nth-of-type(1) th {
+	border: none;
+	border-bottom: solid;
+	border-width: .5px;
+}
+
+.general th:nth-of-type(1) {
+	border-left: none;
+}
+
+.general th:nth-of-type(2) {
+	border-left:  none;
+	border-right: none;
+}
+
+.general th:nth-of-type(3) {
+	border-right: none;
+}
+
+.general tr:nth-of-type(2n + 1) {
+	background-color: lightgray;
+}	
