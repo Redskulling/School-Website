@@ -7,7 +7,23 @@
 		<link rel="stylesheet" type="text/css" href="CSS/Gameplay.css">
     </head>
     <body>
-        <!--ToDo: Add Nav bar when finished-->
+        <!-- creates a container for the navigation bar -->
+		<div class="topbar">
+			<!-- creates a button to get to the home menu-->
+			<button class="homebtn" float=left><a href="index.html">Home</a></button>
+			<!-- creates a dropdown menu for the "Basics Menu"-->
+			<div class="dropdown">
+				<button class="dropbtn" float=left>Basics</button>
+				<!-- contains the links to the different pages-->
+				<div class="dropdown-content">
+					<a href="index.html#terms">Terminology</a>
+					<a href="controls.html">Controls</a>
+					<a href="gameplay.html">Gameplay</a> <!--TODO: make links lead to places on the page-->
+				</div>
+			</div>
+			<button class="homebtn" float=left><a href="gallery.html">Gallery</a></button>
+			<button class="homebtn" float=left><a href="links.html">References</a></button>
+		</div>
 		
 		<!-- Title -->
 		<div class="top">
