@@ -5,6 +5,7 @@
 	z-index: -1;
 	margin: 10px;
 	margin-left: 0px;
+	float: left;
 }
 
 .contents h3 {

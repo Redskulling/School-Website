@@ -76,3 +76,8 @@
     height: 10%;
     width:  10%;
 }
+
+.contact {
+	position: fixed;
+	bottom: 0px;
+}

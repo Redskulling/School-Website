@@ -3,6 +3,10 @@ body {
 	text-align: left;
 }
 
+.contents {
+	float: none;
+}
+
 a.anchor {
     display: block;
     position: relative;
