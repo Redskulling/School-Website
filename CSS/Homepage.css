@@ -35,7 +35,13 @@ a.anchor {
 	margin-top: -5px;
 }
 
-.terms th:nth-child(2n-1) {
+.terms th:nth-child(1) {
+	border-right:  solid;
+	border-width:  1px;
+	padding-right: 25px;
+}
+
+.terms th:nth-child(2) {
 	border-right:  solid;
 	border-width:  1px;
 	padding-right: 25px;
