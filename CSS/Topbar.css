@@ -78,6 +78,6 @@
 }
 
 .contact {
-	position: fixed;
+	position: relative;
 	bottom: 0px;
 }
